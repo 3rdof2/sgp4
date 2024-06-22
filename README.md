@@ -2,6 +2,8 @@
 
 `sgp4` is a Golang translation of the C++ astrodynamics algorithm publsihed by [CelesTrak](https://celestrak.org/software/vallado/cpp.zip), written by David Vallado on 28 Jun 2005, and based on the methodology originally published through the AIAA Spacetrack Report #3.
 
+`sgp4` was created as a learning project and no assurances are offered on the accuracy of this product. This is not actively maintained.
+
 # Use
 
 `sgp4` takes one of two inputs. First is a struct derived from the Orbit Mean-Elements Message (OMM), the second is by a Two Line Element (TLE).
